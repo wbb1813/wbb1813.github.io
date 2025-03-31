@@ -20,8 +20,8 @@ plugins:
 author:
   name: "Binbin Wang"
   avatar: "/assets/images/profile.jpg"
-  bio: "Computational biologist with 11 years of experience in bioinformatics and systems biology, specializing in precision oncology and immune checkpoint blockade (ICB) response prediction. Expertise in large-scale omics data analysis, algorithm development, and machine learning applications in cancer research. Developed multiple widely used computational frameworks, including MAGeCKFlute for CRISPR screen data analysis, DETACH, a computational method to enhance ICB prediction, and LiBIO, a liquid biomarker prediction tool for ICB therapy."
-  location: "Bethesda, Maryland, United States"
+  bio: "Postdoctoral Fellow at National Cancer Institute, NIH. Computational biologist with 11 years of experience in bioinformatics and systems biology, specializing in precision oncology and immune checkpoint blockade (ICB) response prediction. Expertise in large-scale omics data analysis, algorithm development, and machine learning applications in cancer research. Developed multiple widely used computational frameworks, including MAGeCKFlute for CRISPR screen data analysis, DETACH, a computational method to enhance ICB prediction, and LiBIO, a liquid biomarker prediction tool for ICB therapy."
+  location: "National Cancer Institute, NIH, Bethesda, Maryland, United States"
   email: "wangbinbintj@gmail.com"
   github: "wbb1813"
   linkedin: "https://www.linkedin.com/in/binbin-wang-55a425190"
