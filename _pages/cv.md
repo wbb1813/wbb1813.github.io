@@ -67,15 +67,9 @@ redirect_from:
 
 ## Selected Publications
 
-* Li T*, Fan J*, Wang B*, et al. "TIMER: A web server for comprehensive analysis of tumor-infiltrating immune cells." Cancer Research (2017). Citations: 5048
-* Wang B, et al. "MAGeCKFlute: An integrated analysis pipeline for pooled CRISPR genetic screens." Nature Protocols (2019). Citations: 367
-* Shu S*, Wu HJ*, et al. "Synthetic lethal and resistance interactions with BET bromodomain inhibitors in triple-negative breast cancer." Molecular Cell (2020). Citations: 135
-* Sun D*, Wang J*, Han Y*, et al. "TISCH: a comprehensive web resource enabling interactive single-cell transcriptome visualization of tumor microenvironment." Nucleic Acids Research (2021). Citations: 792
-* Li B*, Li T*, Wang B*, et al. "Ultrasensitive detection of TCR hypervariable-region sequences in solid-tissue RNA-seq data." Nature Genetics (2017). Citations: 80
-* Hao Q*, Zhan C*, et al. "DNA repair mechanisms that promote insertion-deletion events during immunoglobulin gene diversification." Science Immunology (2023). Citations: 13
-* Wang Y*, Zhang S*, et al. "Mesoscale DNA feature in antibody-coding sequence facilitates somatic hypermutation." Cell (2023). Citations: 23
-
-*Equal contribution
+* Wang B, Wang M, Zhang W, et al. "MAGeCKFlute: An integrated analysis pipeline for pooled CRISPR genetic screens." Nature Protocols (2019). Citations: 367
+* Wang B, Sahni S, Wu D, et al. "Decoupling the correlation between cytotoxic and exhausted T lymphocyte states enhances melanoma immunotherapy response prediction." iScience (2024)
+* Wang B, Li Z, Gu S, et al. "CRISPR Screens Identify Essential Cell Growth Mediators in BRAF Inhibitor-resistant Melanoma." Genomics, Proteomics & Bioinformatics (2020). Citations: 22
 
 ## Honors and Awards
 
