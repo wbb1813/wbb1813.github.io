@@ -26,7 +26,7 @@ redirect_from:
     - Single-cell analysis of tumor microenvironment
     - Machine learning applications in cancer immunotherapy
 
-* 2019.07-2020.07: Research Assistant, Tongji University, Shanghai, China
+* 2019.07-2020.07: PhD Student, Tongji University, Shanghai, China
   * Investigation of drug response and resistance mechanisms using CRISPR screens
   * Developed MAGeCKFlute: An integrated analysis pipeline for pooled CRISPR screens
   * Collaborated on multiple cancer research projects using genomics approaches
