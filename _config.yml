@@ -1,211 +1,98 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# Site Information
+title: "Binbin Wang"
+title_separator: "-"
+name: "Binbin Wang"
+description: "Bioinformatician | Single-Cell Analysis | Tumor Immunology"
+url: "https://wbb1813.github.io" # Base URL
+baseurl: "" # Leave empty if using GitHub Pages
+repository: "wbb1813/wbb1813.github.io"
 
-# Site Settings
-locale                   : "en-US"
-title                    : "Binbin Wang"
-title_separator          : "-"
-name                     : &name "Binbin Wang"
-description              : &description "I am currently a Ph.D. student of Tongji Universiy and Research Affiliate at the School of Life Science and Technology."
-url                      : https://wbb1813.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "wbb1813/wbb1813.github.io"
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
-  path                   : # blank (default) uses feed.xml
-
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
-
-# Social Sharing
-twitter:
-  username               : &twitter
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-
-# Analytics
-analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
-
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
 
 # Site Author
 author:
-  name             : "Binbin Wang"
-  avatar           : "profile.png"
-  bio              : "I am currently a Ph.D. student of Tongji Universiy and Research Affiliate at the School of Life Science and Technology."
-  location         : "Shanghai, China"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=binbin+wang"
-  googlescholar    : "https://scholar.google.com/citations?user=bZlpqAUAAAAJ&hl=zh-CN&oi=ao"
-  email            : "wangbinbintj@gmail.com"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "wbb1813"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         :
-  orcid            : "https://orcid.org/0000-0003-2885-6428"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : "replacethistwitterhandle"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  name: "Binbin Wang"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Computational biologist with 11 years of experience in bioinformatics and systems biology, specializing in precision oncology and immune checkpoint blockade (ICB) response prediction. Expertise in large-scale omics data analysis, algorithm development, and machine learning applications in cancer research. Developed multiple widely used computational frameworks, including MAGeCKFlute for CRISPR screen data analysis, DETACH, a computational method to enhance ICB prediction, and LiBIO, a liquid biomarker prediction tool for ICB therapy."
+  location: "Bethesda, Maryland, United States"
+  email: "wangbinbintj@gmail.com"
+  github: "wbb1813"
+  linkedin: "https://www.linkedin.com/in/YOUR_LINKEDIN"
+  orcid: "https://orcid.org/0000-0003-2885-6428"
+  googlescholar: "https://scholar.google.com/citations?user=bZlpqAUAAAAJ"
+  researchgate: "https://www.researchgate.net/profile/YOUR_PROFILE"
+  pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=binbin+wang"
 
+# Navigation
+breadcrumbs: true
+read_more: "enabled"
 
-# Reading Files
+# SEO Optimization
+google_site_verification: ""
+bing_site_verification: ""
+yandex_site_verification: ""
+
+# Social Sharing
+social:
+  type: "Person"
+  name: "Binbin Wang"
+  links:
+    - "https://github.com/wbb1813"
+    - "https://www.linkedin.com/in/YOUR_LINKEDIN"
+    - "https://orcid.org/0000-0003-2885-6428"
+    - "https://scholar.google.com/citations?user=bZlpqAUAAAAJ"
+
+# Analytics (Google Universal Tracking)
+analytics:
+  provider: "google-universal"
+  google:
+    tracking_id: "UA-XXXXXXXXX-X"  # Replace with your Google Analytics ID
+
+# Pagination & Permalinks
+paginate: 5
+paginate_path: "/page:num/"
+permalink: pretty
+
+# Reading & Exclusions
 include:
   - .htaccess
   - _pages
-  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
-  - gulpfile.js
-  - log
   - node_modules
-  - package.json
-  - tmp
   - vendor
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
 
 # Markdown Processing
+markdown: kramdown
+highlighter: rouge
 kramdown:
   input: GFM
   hard_wrap: false
   auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
 
-
-# Collections
+# Collections (Publications, Research, Teaching)
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  #talks:
-  #  output: true
-  #  permalink: /:collection/:path/
   research:
     output: true
-    permalink: /:collection/:path/
+    permalink: /research/:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
   news:
     output: true
-    permalink: /:collection/:path/
+    permalink: /news/:path/
 
-# Defaults
+# Defaults (for automatic layouts)
 defaults:
-  # _research
-  - scope:
-      path: ""
-      type: research
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -213,26 +100,23 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
   - scope:
       path: ""
-      type: teaching
+      type: research
     values:
       layout: single
       author_profile: true
       share: true
-      comments: true
-  # _publications
+      comments: false
   - scope:
       path: ""
       type: publications
@@ -240,95 +124,22 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _news
-  - scope:
-      path: ""
-      type: news
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+      comments: false
 
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+# Footer Customization
+footer:
+  links:
+    - title: "GitHub"
+      url: "https://github.com/wbb1813"
+    - title: "LinkedIn"
+      url: "https://www.linkedin.com/in/YOUR_LINKEDIN"
+    - title: "ORCID"
+      url: "https://orcid.org/0000-0003-2885-6428"
+    - title: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=bZlpqAUAAAAJ"
 
-
-# Outputting
-permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  #- jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-redirect-from
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  #- jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
-
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+# Sitemap for SEO
+sitemap:
+  include_posts: true
+  exclude:
+    - "/404.html"
