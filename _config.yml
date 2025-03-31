@@ -24,10 +24,10 @@ author:
   location: "Bethesda, Maryland, United States"
   email: "wangbinbintj@gmail.com"
   github: "wbb1813"
-  linkedin: "https://www.linkedin.com/in/YOUR_LINKEDIN"
+  linkedin: "https://www.linkedin.com/in/binbin-wang-55a425190"
   orcid: "https://orcid.org/0000-0003-2885-6428"
-  googlescholar: "https://scholar.google.com/citations?user=bZlpqAUAAAAJ"
-  researchgate: "https://www.researchgate.net/profile/YOUR_PROFILE"
+  googlescholar: "https://scholar.google.com/citations?user=3kWrm4cAAAAJ"
+  researchgate: "https://www.researchgate.net/profile/Binbin-Wang-34"
   pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=binbin+wang"
 
 # Navigation
@@ -45,15 +45,9 @@ social:
   name: "Binbin Wang"
   links:
     - "https://github.com/wbb1813"
-    - "https://www.linkedin.com/in/YOUR_LINKEDIN"
+    - "https://www.linkedin.com/in/binbin-wang-55a425190"
     - "https://orcid.org/0000-0003-2885-6428"
-    - "https://scholar.google.com/citations?user=bZlpqAUAAAAJ"
-
-# Analytics (Google Universal Tracking)
-analytics:
-  provider: "google-universal"
-  google:
-    tracking_id: "UA-XXXXXXXXX-X"  # Replace with your Google Analytics ID
+    - "https://scholar.google.com/citations?user=3kWrm4cAAAAJ"
 
 # Pagination & Permalinks
 paginate: 5
@@ -132,11 +126,11 @@ footer:
     - title: "GitHub"
       url: "https://github.com/wbb1813"
     - title: "LinkedIn"
-      url: "https://www.linkedin.com/in/YOUR_LINKEDIN"
+      url: "https://www.linkedin.com/in/binbin-wang-55a425190"
     - title: "ORCID"
       url: "https://orcid.org/0000-0003-2885-6428"
     - title: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=bZlpqAUAAAAJ"
+      url: "https://scholar.google.com/citations?user=3kWrm4cAAAAJ"
 
 # Sitemap for SEO
 sitemap:
