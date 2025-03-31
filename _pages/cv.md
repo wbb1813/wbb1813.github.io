@@ -17,25 +17,27 @@ redirect_from:
 
 ## Research Experience
 
-* 2021-Present: Postdoctoral Fellow, National Cancer Institute, NIH, Bethesda, MD
-  * Lead computational biology research in cancer immunology and immunotherapy
-  * Develop computational methods and tools for cancer research
+* 2021-Present: Postdoctoral Fellow, Cancer Data Science Laboratory, NCI, Bethesda, MD
+  * Advisor: Dr. Eytan Ruppin
   * Key projects:
-    - DETACH: A computational method to enhance ICB prediction
-    - LiBIO: A liquid biomarker prediction tool for ICB therapy
-    - Single-cell analysis of tumor microenvironment
-    - Machine learning applications in cancer immunotherapy
+    - Developed LiBIO, an early-on-treatment transcriptional blood biomarker surpassing existing ICB response predictors in HNSCC (Manuscript under review)
+    - Identified decoupling genes (DETACH) influencing cytotoxic and exhausted T cell activities to enhance melanoma immunotherapy predictions (Published on iScience)
+    - Characterized bispecific antibody effectiveness and toxicity in cancer therapy (Manuscript in preparation)
 
-* 2019.07-2020.07: PhD Student, Tongji University, Shanghai, China
-  * Investigation of drug response and resistance mechanisms using CRISPR screens
-  * Developed MAGeCKFlute: An integrated analysis pipeline for pooled CRISPR screens
-  * Collaborated on multiple cancer research projects using genomics approaches
+* 2019-2021: Research Assistant, Shanghai Jiaotong University, Medical School
+  * Advisor: Dr. Leng Siew Yeap
+  * Key achievements:
+    - Developed an innovative algorithm for DNA sequencing analysis to characterize immunoglobulin gene diversification (Published on Science Immunology, citation 13)
+    - Characterized antibody somatic hypermutation mechanisms and non-coding regulatory functions (Published on Cell, citation 23)
 
-* 2014-2019: Visiting Scholar, Dana-Farber Cancer Institute, Harvard Medical School, Boston, US
-  * Developed computational methods for analyzing tumor-infiltrating immune cells
-  * Created TIMER: A comprehensive resource for tumor-immune system interactions
-  * Analyzed large-scale cancer genomics data from TCGA and other sources
-  * Published multiple high-impact papers in cancer immunology
+* 2015-2019: Graduate Research, Dana-Farber Cancer Institute & Tongji University
+  * Advisor: Dr. Xiaole Shirley Liu
+  * Key achievements:
+    - Developed MAGeCKFlute, a widely used computational pipeline for CRISPR screen data analysis (Published on Nature Protocols, citation 367)
+    - Identified therapeutic targets by integrating CRISPR screen and RNA-seq data analysis for BRAFi-resistant melanoma (Published on Genomics, Proteomics & Bioinformatics, citation 21)
+    - Designed and executed the MusCK murine CRISPR knockout library, conducting in vivo screens in TNBC models to identify key genetic regulators of tumor progression and response to PD-1 blockade (Published on Cell, citation 135)
+    - Contributed to the development of TRUST (Published on Nature Genetics, citation 80), a novel computational method for de novo assembly of CDR3 regions from RNA-seq data
+    - Developed TIMER (Published on Cancer Research, citation 5048), a comprehensive tool for characterizing tumor-immune interactions and immune infiltrates
 
 ## Skills
 
