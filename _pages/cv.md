@@ -15,27 +15,27 @@ redirect_from:
 * Visiting scholar, Dana Farber Cancer Institute, Harvard Medical School, Boston, US. 2014-2019
 * B.A, Biotechnology, Northeast Agriculture University, Harbin, China. 2008-2012
 
-## Work experience
+## Research Experience
 
 * 2021-Present: Postdoctoral Fellow, National Cancer Institute, NIH, Bethesda, MD
   * Lead computational biology research in cancer immunology and immunotherapy
-  * Develop and maintain computational tools for cancer research
-  * Key achievements:
-    - Developed DETACH for ICB response prediction
-    - Created LiBIO for liquid biomarker prediction
-    - Led multiple high-impact research projects
+  * Develop computational methods and tools for cancer research
+  * Key projects:
+    - DETACH: A computational method to enhance ICB prediction
+    - LiBIO: A liquid biomarker prediction tool for ICB therapy
+    - Single-cell analysis of tumor microenvironment
+    - Machine learning applications in cancer immunotherapy
 
-* 2019.07-2020.07: Research assistant, Tongji University
-  * Investigation of drug response and resistance mechanism using CRISPR screen data
-  * Developed MAGeCKFlute for CRISPR screen data analysis
+* 2019.07-2020.07: Research Assistant, Tongji University, Shanghai, China
+  * Investigation of drug response and resistance mechanisms using CRISPR screens
+  * Developed MAGeCKFlute: An integrated analysis pipeline for pooled CRISPR screens
+  * Collaborated on multiple cancer research projects using genomics approaches
 
-* 2013-2014: Bioinformatics counsellors
-  * Representatives products of high throughput sequences, such as RNA-seq, Chip-seq, to customers
-  * Interpreted sequencing and analysis results
-
-* 2012-2013: Purchasing Agent, Yurun Group
-  * Managed equipment and raw material procurement
-  * Verified receipt of items and authorized payments
+* 2014-2019: Visiting Scholar, Dana-Farber Cancer Institute, Harvard Medical School, Boston, US
+  * Developed computational methods for analyzing tumor-infiltrating immune cells
+  * Created TIMER: A comprehensive resource for tumor-immune system interactions
+  * Analyzed large-scale cancer genomics data from TCGA and other sources
+  * Published multiple high-impact papers in cancer immunology
 
 ## Skills
 
