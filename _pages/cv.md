@@ -17,10 +17,9 @@ redirect_from:
 
 ## Work experience
 
-* 2020.07-Present: Staff Scientist, National Cancer Institute, NIH, Bethesda, MD
+* 2021-Present: Postdoctoral Fellow, National Cancer Institute, NIH, Bethesda, MD
   * Lead computational biology research in cancer immunology and immunotherapy
   * Develop and maintain computational tools for cancer research
-  * Mentor postdoctoral fellows and graduate students
   * Key achievements:
     - Developed DETACH for ICB response prediction
     - Created LiBIO for liquid biomarker prediction
