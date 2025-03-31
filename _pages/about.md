@@ -1,7 +1,9 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "About me"
+excerpt: "Binbin Wang - Computational Biologist at NCI"
+description: "Postdoctoral Fellow at NCI, specializing in cancer immunology, computational biology, and machine learning. Developer of LiBIO, DETACH, and MAGeCKFlute."
+keywords: "Binbin Wang, computational biology, cancer immunology, bioinformatics, NCI, immunotherapy, CRISPR screens, machine learning"
 author_profile: true
 redirect_from: 
   - /about/
